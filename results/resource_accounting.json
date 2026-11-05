@@ -1,0 +1,10 @@
+{
+  "data_preparation_seconds": 48.7904,
+  "jit_compilation_overhead_seconds": 1.0361,
+  "candidate_search_total_seconds": 111.5418,
+  "candidate_search_rss_peak_mb": 2956.72,
+  "test_evaluation_seconds": 7.6582,
+  "bootstrap_resampling_seconds": 0.0912,
+  "sampling_10k_seconds": 1.4505,
+  "total_cumulative_rss_peak_mb": 3469.86
+}

@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+
+# Output directory for full optional retraining or new validation runs
+results/validation/
+results/new_run/
+results/reproduction/
+checkpoints/new_run/
+
+# Reproduction run directories
+runs/

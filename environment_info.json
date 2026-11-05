@@ -1,0 +1,13 @@
+{
+  "python_version": "3.13.16 (main, Sep 30 2026, 18:57:20) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "processor": "arm",
+  "iqpopt_commit": "18ae04255ed80a274d8c49ed91cd4e6214757ccd",
+  "iqpopt_metadata_version": "2024.7.0",
+  "pennylane_version": "0.45.1",
+  "jax_version": "0.12.0.1",
+  "numpy_version": "2.5.4",
+  "frozen_protocol_sha256": "64086fe2e51c747d39aaba3fe17856583e05f93f6428ea20fb160c305b473dac",
+  "frozen_protocol_commit": "d1a3143500768c944fc5845f3153183a4a2d291e"
+}

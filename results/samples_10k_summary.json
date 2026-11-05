@@ -1,0 +1,542 @@
+[
+  {
+    "model": "IQP",
+    "encoding": "primary",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 6696,
+    "gen_unseen_training_chunk_fraction": 0.6923
+  },
+  {
+    "model": "IQP",
+    "encoding": "primary",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 6896,
+    "gen_unseen_training_chunk_fraction": 0.7062
+  },
+  {
+    "model": "IQP",
+    "encoding": "primary",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 6986,
+    "gen_unseen_training_chunk_fraction": 0.7022
+  },
+  {
+    "model": "IQP",
+    "encoding": "primary",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 6761,
+    "gen_unseen_training_chunk_fraction": 0.682
+  },
+  {
+    "model": "IQP",
+    "encoding": "primary",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 7025,
+    "gen_unseen_training_chunk_fraction": 0.7079
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt1",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 6905,
+    "gen_unseen_training_chunk_fraction": 0.6886
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt1",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 6254,
+    "gen_unseen_training_chunk_fraction": 0.6797
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt1",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 6614,
+    "gen_unseen_training_chunk_fraction": 0.6677
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt1",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 6818,
+    "gen_unseen_training_chunk_fraction": 0.7453
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt1",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 6718,
+    "gen_unseen_training_chunk_fraction": 0.6684
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt2",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 6081,
+    "gen_unseen_training_chunk_fraction": 0.6256
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt2",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 6224,
+    "gen_unseen_training_chunk_fraction": 0.6667
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt2",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 6152,
+    "gen_unseen_training_chunk_fraction": 0.6397
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt2",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 6188,
+    "gen_unseen_training_chunk_fraction": 0.6529
+  },
+  {
+    "model": "IQP",
+    "encoding": "alt2",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 6111,
+    "gen_unseen_training_chunk_fraction": 0.6504
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "primary",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 8160,
+    "gen_unseen_training_chunk_fraction": 0.7285
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "primary",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 8180,
+    "gen_unseen_training_chunk_fraction": 0.7271
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "primary",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 8139,
+    "gen_unseen_training_chunk_fraction": 0.7293
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "primary",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 8103,
+    "gen_unseen_training_chunk_fraction": 0.7364
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "primary",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 8187,
+    "gen_unseen_training_chunk_fraction": 0.7419
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt1",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 8341,
+    "gen_unseen_training_chunk_fraction": 0.7834
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt1",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 8311,
+    "gen_unseen_training_chunk_fraction": 0.7982
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt1",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 8368,
+    "gen_unseen_training_chunk_fraction": 0.7882
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt1",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 8127,
+    "gen_unseen_training_chunk_fraction": 0.7619
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt1",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 8285,
+    "gen_unseen_training_chunk_fraction": 0.7841
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt2",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 7283,
+    "gen_unseen_training_chunk_fraction": 0.6708
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt2",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 7362,
+    "gen_unseen_training_chunk_fraction": 0.6792
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt2",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 7379,
+    "gen_unseen_training_chunk_fraction": 0.6739
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt2",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 7274,
+    "gen_unseen_training_chunk_fraction": 0.6704
+  },
+  {
+    "model": "Bitflip",
+    "encoding": "alt2",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 7427,
+    "gen_unseen_training_chunk_fraction": 0.6731
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "primary",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 6257,
+    "gen_unseen_training_chunk_fraction": 0.5805
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "primary",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 6172,
+    "gen_unseen_training_chunk_fraction": 0.5761
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "primary",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 6031,
+    "gen_unseen_training_chunk_fraction": 0.5706
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "primary",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 6146,
+    "gen_unseen_training_chunk_fraction": 0.5773
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "primary",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 6133,
+    "gen_unseen_training_chunk_fraction": 0.589
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt1",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 5387,
+    "gen_unseen_training_chunk_fraction": 0.4576
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt1",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 5323,
+    "gen_unseen_training_chunk_fraction": 0.4593
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt1",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 5370,
+    "gen_unseen_training_chunk_fraction": 0.469
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt1",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 5359,
+    "gen_unseen_training_chunk_fraction": 0.4607
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt1",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 5353,
+    "gen_unseen_training_chunk_fraction": 0.4615
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt2",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 6115,
+    "gen_unseen_training_chunk_fraction": 0.5728
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt2",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 6134,
+    "gen_unseen_training_chunk_fraction": 0.5682
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt2",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 6093,
+    "gen_unseen_training_chunk_fraction": 0.5724
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt2",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 6065,
+    "gen_unseen_training_chunk_fraction": 0.5708
+  },
+  {
+    "model": "Autoregressive",
+    "encoding": "alt2",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 5987,
+    "gen_unseen_training_chunk_fraction": 0.5672
+  },
+  {
+    "model": "Table",
+    "encoding": "primary",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 2224,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "primary",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 2217,
+    "gen_unseen_training_chunk_fraction": 0.0001
+  },
+  {
+    "model": "Table",
+    "encoding": "primary",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 2235,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "primary",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 2228,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "primary",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 2249,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "alt1",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 2256,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "alt1",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 2251,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "alt1",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 2257,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "alt1",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 2207,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "alt1",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 2269,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "alt2",
+    "seed": 11,
+    "sample_seed": 100011,
+    "n_samples": 10000,
+    "unique_states_sampled": 2257,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "alt2",
+    "seed": 23,
+    "sample_seed": 100023,
+    "n_samples": 10000,
+    "unique_states_sampled": 2286,
+    "gen_unseen_training_chunk_fraction": 0.0001
+  },
+  {
+    "model": "Table",
+    "encoding": "alt2",
+    "seed": 37,
+    "sample_seed": 100037,
+    "n_samples": 10000,
+    "unique_states_sampled": 2229,
+    "gen_unseen_training_chunk_fraction": 0.0002
+  },
+  {
+    "model": "Table",
+    "encoding": "alt2",
+    "seed": 53,
+    "sample_seed": 100053,
+    "n_samples": 10000,
+    "unique_states_sampled": 2216,
+    "gen_unseen_training_chunk_fraction": 0.0
+  },
+  {
+    "model": "Table",
+    "encoding": "alt2",
+    "seed": 71,
+    "sample_seed": 100071,
+    "n_samples": 10000,
+    "unique_states_sampled": 2200,
+    "gen_unseen_training_chunk_fraction": 0.0002
+  }
+]

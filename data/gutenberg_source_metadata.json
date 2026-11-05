@@ -1,0 +1,20 @@
+{
+  "source_url": "https://www.gutenberg.org/ebooks/100.txt.utf-8",
+  "resolved_url": "https://www.gutenberg.org/cache/epub/100/pg100.txt",
+  "retrieval_timestamp_iso": "2026-11-05T07:39:15Z",
+  "retrieval_duration_seconds": 43.686,
+  "byte_count": 5638481,
+  "sha256": "eb61e33cab23dbe712ad57091ded6c7292ba91ac3bb2764f51a3223ec0068fe5",
+  "http_headers": {
+    "date": "Thu, 05 Nov 2026 07:38:34 GMT",
+    "server": "Apache",
+    "strict-transport-security": "max-age=7776000; includeSubDomains",
+    "last-modified": "Sat, 17 Oct 2026 17:00:17 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "5638481",
+    "vary": "Accept-Encoding",
+    "x-backend": "gutenweb5",
+    "content-type": "text/plain; charset=utf-8",
+    "connection": "close"
+  }
+}

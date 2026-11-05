@@ -1,0 +1,6 @@
+# Preserve raw source bytes without EOL or encoding normalization
+data/gutenberg_100_raw.txt -text
+
+# Binary artifact preservation
+*.npy binary
+*.png binary

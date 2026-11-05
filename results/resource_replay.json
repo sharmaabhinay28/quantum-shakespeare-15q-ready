@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "workload": "representative_fixed_workload_replay",
+    "scope": "primary_encoding_seed_11_selected_configs",
+    "process_isolation": "dedicated_subprocess_per_phase_worker",
+    "platform": "macOS-27.0.1-arm64-Apple-Silicon",
+    "python_version": "3.13.16 (main, Sep 30 2026, 18:57:20) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "notes": "Pure training isolates optimization loop from probability generation; Step 0 includes in-process JIT compilation for IQP, Bitflip, and AR; Table is deterministic closed-form add-alpha fitting without updates or randomness; Sampling records both probability vector construction and categorical draw separately; Peak RSS is the worker-lifetime high-water mark, including imports and corpus preparation. It is not incremental model memory. Operation timers exclude preparation and process startup. Compilation is included in cold training time, not separately measured."
+  },
+  "isolated_data_prep_baseline": {
+    "phase": "data_prep",
+    "wall_seconds": 1.9360699590761214,
+    "peak_rss_mb": 2395.71875
+  },
+  "pure_training_isolated": [
+    {
+      "phase": "pure_training",
+      "model": "IQP",
+      "encoding": "primary",
+      "seed": 11,
+      "config_index": 1,
+      "config_value": 0.03,
+      "pure_train_wall_seconds": 1.14463,
+      "peak_rss_mb": 2163.12,
+      "max_param_diff_vs_frozen": 0.0,
+      "sha256_match": true
+    },
+    {
+      "phase": "pure_training",
+      "model": "Bitflip",
+      "encoding": "primary",
+      "seed": 11,
+      "config_index": 1,
+      "config_value": 0.03,
+      "pure_train_wall_seconds": 0.99265,
+      "peak_rss_mb": 2150.44,
+      "max_param_diff_vs_frozen": 0.0,
+      "sha256_match": true
+    },
+    {
+      "phase": "pure_training",
+      "model": "Autoregressive",
+      "encoding": "primary",
+      "seed": 11,
+      "config_index": 0,
+      "config_value": 0.01,
+      "pure_train_wall_seconds": 0.25506,
+      "peak_rss_mb": 2129.81,
+      "max_param_diff_vs_frozen": 0.0,
+      "sha256_match": true
+    },
+    {
+      "phase": "pure_training",
+      "model": "Table",
+      "encoding": "primary",
+      "seed": 11,
+      "config_index": 0,
+      "config_value": 0.01,
+      "pure_train_wall_seconds": 5e-05,
+      "peak_rss_mb": 2076.05,
+      "max_param_diff_vs_frozen": 0.0,
+      "sha256_match": true
+    }
+  ],
+  "exact_evaluation_isolated": [
+    {
+      "phase": "exact_evaluation",
+      "model": "IQP",
+      "encoding": "primary",
+      "seed": 11,
+      "prob_construction_wall_seconds": 0.07529,
+      "metrics_computation_wall_seconds": 0.03756,
+      "total_eval_wall_seconds": 0.11287,
+      "peak_rss_mb": 687.61,
+      "test_log_loss_chunk": 10.452456,
+      "test_log_loss_char": 3.484152,
+      "test_squared_mmd": 0.00350099
+    },
+    {
+      "phase": "exact_evaluation",
+      "model": "Bitflip",
+      "encoding": "primary",
+      "seed": 11,
+      "prob_construction_wall_seconds": 0.00455,
+      "metrics_computation_wall_seconds": 0.03707,
+      "total_eval_wall_seconds": 0.04165,
+      "peak_rss_mb": 692.12,
+      "test_log_loss_chunk": 10.190257,
+      "test_log_loss_char": 3.396752,
+      "test_squared_mmd": 0.00434238
+    },
+    {
+      "phase": "exact_evaluation",
+      "model": "Autoregressive",
+      "encoding": "primary",
+      "seed": 11,
+      "prob_construction_wall_seconds": 0.00873,
+      "metrics_computation_wall_seconds": 0.03707,
+      "total_eval_wall_seconds": 0.04582,
+      "peak_rss_mb": 700.83,
+      "test_log_loss_chunk": 9.350207,
+      "test_log_loss_char": 3.116736,
+      "test_squared_mmd": 0.00088649
+    },
+    {
+      "phase": "exact_evaluation",
+      "model": "Table",
+      "encoding": "primary",
+      "seed": 11,
+      "prob_construction_wall_seconds": 0.0,
+      "metrics_computation_wall_seconds": 0.03706,
+      "total_eval_wall_seconds": 0.0371,
+      "peak_rss_mb": 687.52,
+      "test_log_loss_chunk": 7.205917,
+      "test_log_loss_char": 2.401972,
+      "test_squared_mmd": 9.5e-07
+    }
+  ],
+  "sampling_10k_isolated": [
+    {
+      "phase": "10k_sampling",
+      "model": "IQP",
+      "encoding": "primary",
+      "seed": 11,
+      "sample_seed": 100011,
+      "prob_construction_wall_seconds": 0.07558,
+      "categorical_draw_wall_seconds": 0.00089,
+      "total_sampling_wall_seconds": 0.07655,
+      "peak_rss_mb": 280.28,
+      "n_samples": 10000,
+      "unique_samples": 6696
+    },
+    {
+      "phase": "10k_sampling",
+      "model": "Bitflip",
+      "encoding": "primary",
+      "seed": 11,
+      "sample_seed": 100011,
+      "prob_construction_wall_seconds": 0.00461,
+      "categorical_draw_wall_seconds": 0.00087,
+      "total_sampling_wall_seconds": 0.00555,
+      "peak_rss_mb": 278.78,
+      "n_samples": 10000,
+      "unique_samples": 8160
+    },
+    {
+      "phase": "10k_sampling",
+      "model": "Autoregressive",
+      "encoding": "primary",
+      "seed": 11,
+      "sample_seed": 100011,
+      "prob_construction_wall_seconds": 0.00894,
+      "categorical_draw_wall_seconds": 0.00088,
+      "total_sampling_wall_seconds": 0.0099,
+      "peak_rss_mb": 293.02,
+      "n_samples": 10000,
+      "unique_samples": 6257
+    },
+    {
+      "phase": "10k_sampling",
+      "model": "Table",
+      "encoding": "primary",
+      "seed": 11,
+      "sample_seed": 100011,
+      "prob_construction_wall_seconds": 0.0,
+      "categorical_draw_wall_seconds": 0.00086,
+      "total_sampling_wall_seconds": 0.00097,
+      "peak_rss_mb": 278.75,
+      "n_samples": 10000,
+      "unique_samples": 2224
+    }
+  ]
+}
