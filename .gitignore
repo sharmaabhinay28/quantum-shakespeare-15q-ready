@@ -1,3 +1,6 @@
+# Local secrets
+.env*
+
 # Virtual environments
 venv/
 .venv/
@@ -5,9 +8,11 @@ env/
 
 # Python bytecode and caches
 __pycache__/
+*.pyc
 *.py[cod]
 *$py.class
 .pytest_cache/
+.cache/
 
 # Operating system artifacts
 .DS_Store

@@ -1,15 +1,15 @@
 {
   "manifest_version": "1.0.0",
-  "total_files": 224,
-  "total_bytes": 33200656,
+  "total_files": 225,
+  "total_bytes": 33201882,
   "files": {
     ".gitattributes": {
       "sha256": "f6f591d82e1d883f5c2e7ffc4b6a49ffc380fad3c6f5fefcce0f8fc7d1f53244",
       "bytes": 157
     },
     ".gitignore": {
-      "sha256": "997a51cfbc9b98420c1875b431d0dc0f4311be1bbb4b66e4f9fc6741629b76e4",
-      "bytes": 360
+      "sha256": "bafd99fd444d3db68598af3b92e808c40895ca240aa53307b42519a493521b28",
+      "bytes": 397
     },
     "LICENSE": {
       "sha256": "2b5a57d049d2d82c572c2afc1d6a613d6f1ddbe8d7fec665f1a36dbb3b1a3dc7",
@@ -28,8 +28,8 @@
       "bytes": 4174
     },
     "README.md": {
-      "sha256": "a97c3087530bcc5278fc77cfc51d7c00a434f23ddefba007d5280ad81d0cd8ba",
-      "bytes": 14968
+      "sha256": "469660d510c0059eb6ba475c3c8f818bbf322f46bb636a3ba64e33cd35375274",
+      "bytes": 15053
     },
     "REVIEWED_RESULTS.md": {
       "sha256": "fcb003fd616e3c509b1224154dc5e3cf337553eb72b469c3ab7916480f785dfc",
@@ -782,6 +782,10 @@
     "environment_info.json": {
       "sha256": "a884a42e3bcf48e8d2553fe7f15045d807cffa3dba5bca7e54752e8c33e89c5a",
       "bytes": 557
+    },
+    "requirements.txt": {
+      "sha256": "73abb700a513989caf004b1f266f6cd913c8d0e65c0b58ad289e5c6a782d79e8",
+      "bytes": 1104
     },
     "results/bootstrap_results.json": {
       "sha256": "57b3a4b65038d13897b83c75898953ff3e98573783fe2cb1c91e62e613e09c71",

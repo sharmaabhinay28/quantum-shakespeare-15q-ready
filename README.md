@@ -3,6 +3,10 @@
 [![Python](https://img.shields.io/badge/python-3.13-blue.svg)](environment_info.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+This repository accompanies Part 3 of my quantum series on Medium.
+
+Part 3 article URL: `PART_3_MEDIUM_URL`.
+
 This repository contains the complete, standalone research artifact for the 15-qubit quantum language distribution experiment proposed in Abhinay Sharma's article [*Stop Porting GPU Training to Quantum Computers*](https://medium.com/@sharmaabhinay28/stop-porting-gpu-training-to-quantum-computers-fd7cf5cf3bdb).
 
 The study evaluates an Instantaneous Quantum Polynomial-time (**IQP**) Born machine against classical generative controls on unconditional 3-character text generation from Project Gutenberg Ebook #100 (*The Complete Works of William Shakespeare*).
@@ -14,13 +18,11 @@ The study evaluates an Instantaneous Quantum Polynomial-time (**IQP**) Born mach
 Verify all 180 candidate checkpoints, 60 frozen selections, SHA-256 content hashes, and numerical test results from scratch:
 
 ```bash
-git clone REPO_URL_AFTER_ABHI_APPROVAL quantum-shakespeare-15q-ready && cd quantum-shakespeare-15q-ready
+git clone https://github.com/sharmaabhinay28/quantum-shakespeare-15q-ready.git && cd quantum-shakespeare-15q-ready
 python3.13 -m venv venv
-venv/bin/pip install -r dependency_lock.txt
+venv/bin/pip install -r requirements.txt
 venv/bin/python verify_artifacts.py
 ```
-
-*(Note: `REPO_URL_AFTER_ABHI_APPROVAL` is the explicit placeholder for the public GitHub repository URL following final approval.)*
 
 ---
 
@@ -166,6 +168,7 @@ quantum-shakespeare-15q-ready/
 ├── export_manifest.json         # Non-self-recursive SHA-256 and byte manifest of all files
 ├── verify_artifacts.py          # Standalone verification script (10 numerical checks + provenance)
 ├── environment_info.json        # Platform, Python, JAX, and package versions
+├── requirements.txt             # Pinned install requirements copied from dependency_lock.txt
 ├── dependency_lock.txt          # Frozen pip dependencies (CPU packages, pinned iqpopt)
 ├── .gitignore                   # Ignores venvs, pycaches, and new run directories
 ├── .gitattributes              # Preserves CRLF on gutenberg source and marks binaries
